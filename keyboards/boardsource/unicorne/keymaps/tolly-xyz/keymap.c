@@ -8,11 +8,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* BASE LAYER */
     [0] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-        KC_NO,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                         KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,   KC_NO,
+        KC_NO,    KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,                      KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN,   KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-    KC_NO,LG_T(KC_A),LA_T(KC_S),LC_T(KC_D),LS_T(KC_F),KC_G,                 KC_H,RS_T(KC_J),RC_T(KC_K),RA_T(KC_L),RG_T(KC_SCLN),KC_NO,
+    KC_NO,LG_T(KC_A),LA_T(KC_R),LC_T(KC_S),LS_T(KC_T),KC_G,                    KC_M,RS_T(KC_N),RC_T(KC_E),RA_T(KC_I),RG_T(KC_O),KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        KC_NO,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,   KC_NO,
+        KC_NO,    KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,                         KC_K,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,   KC_NO,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                            LT(6,KC_ESC), LT(2,KC_SPC), LT(4,KC_TAB),   LT(3,KC_ENT), LT(1,KC_BSPC), LT(5,KC_DEL)
                                       //`--------------------------'  `--------------------------'
@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [1] = LAYOUT_split_3x6_3(
   /* NUM LAYER */
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      QK_BOOT, KC_LBRC,    KC_7,    KC_8,    KC_9, KC_RBRC,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO, KC_LBRC,    KC_7,    KC_8,    KC_9, KC_RBRC,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO, QK_BOOT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_NO, KC_QUOT,    KC_4,    KC_5,    KC_6,  KC_EQL,                        KC_NO, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI,   KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [3] = LAYOUT_split_3x6_3(
     /* SYMBOLS */
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      QK_BOOT, KC_LCBR, KC_AMPR, KC_ASTR, KC_LPRN, KC_RCBR,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO, KC_LCBR, KC_AMPR, KC_ASTR, KC_LPRN, KC_RCBR,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO, QK_BOOT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_NO, KC_DQUO,  KC_DLR, KC_PERC, KC_CIRC, KC_PLUS,                        KC_NO, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI,   KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [5] = LAYOUT_split_3x6_3(
     /* FN */
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      QK_BOOT,  KC_F12,   KC_F7,   KC_F8,   KC_F9, KC_PSCR,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+        KC_NO,  KC_F12,   KC_F7,   KC_F8,   KC_F9, KC_PSCR,                        KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO, QK_BOOT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_NO,  KC_F11,   KC_F4,   KC_F5,   KC_F6, KC_SCRL,                        KC_NO, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI,   KC_NO,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
